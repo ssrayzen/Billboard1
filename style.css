@@ -1,0 +1,194 @@
+	/* 1 уровень. шапка сайта */
+	.header {
+		
+		height: 50px;
+		padding-top: 10px;
+		background: #c3c9d4;
+		
+		
+	}
+	/* 2 уровень. выравнивание шапки */
+	.header-center {
+		
+		height: 50px;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+
+	}
+	/* 3 уровень. лого */
+	.box-logo {
+		
+		height: 50px;
+		width: 150px;
+		
+	}
+	/* 3 уровень. ссылки */
+	.box-links {
+		
+		height: 35px;
+		width: 600px;
+		
+		padding-top: 15px;
+	}
+	/* 3 уровень. кнопка подписаться */
+	.box-button {
+		
+		height: 40px;
+		width: 100px;
+		
+		padding-top: 10px;
+	}
+	/* лого картинка */
+	.logo {
+		width: 150px;
+
+	}
+	/* ссылки разноцветные */
+	/* ссылки белые */
+	.links-white {
+		font-family: Arial;
+		color: white;
+		margin-left: 40px;
+	}
+	/* ссылки красные */
+	.links-red {
+		font-family: Arial;
+		color: red;
+		margin-left: 40px;
+
+	}
+	/* ссылки зеленые */
+	.links-orange {
+		font-family: Arial;
+		color: orange;
+		margin-left: 40px;
+		
+	}
+
+	/* 1 уровень. чат-контейнер */
+	.charts-container {
+		
+		height: 900px;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;		
+		font-family: Arial;
+
+	}
+	/* 2 уровень. чарт-кнопки*/
+	.charts-sort {
+		
+		height: 60px;
+	}
+	/* 2 уровень. чарт-треки: new */
+
+	/* 2 уровень. чарт-треки: up */
+	.charts-box {
+		
+		height: 120px;
+		display: flex;
+		border-radius: 5px;
+		margin-top: 10px;
+		border: solid;
+	}
+	/* 2 уровень. чарт-треки: down */
+
+	
+	/* Место в чате */
+	.charts-rank {
+		
+		height: 120px;
+		width: 90px;	
+		text-align: center;
+	}
+
+	/* информация о треке */
+	.charts-info {
+		
+		height: 120px;
+		width: 470px;
+		
+	}
+	/* купить или воспроизвести */
+	.charts-button {
+		
+		height: 120px;
+		width: 150px;
+
+		
+	}
+	.bg-danger{
+		background: #dc3545;
+	}
+	.bg-dark{
+		background: #343a40;
+	}
+	.bg-success{
+		background: #28a745;
+	}
+	.bg-info{
+		background: #17a2b8;
+	}
+	/* картинка */
+	.charts-img {
+		
+		height: 120px;
+		width: 90px;
+		
+	}
+
+	/* кнопка sort оранжевая */
+	.button {
+	
+		color: white;
+		height: 30px;
+		width: 100px;
+		border-radius: 3px;
+		border:none;
+		font-family: cursive;
+	}
+
+	
+	/* картинка трека */
+	.img-treck {
+		width: 90px;
+		margin-top: 20px;
+	}
+	/*  */
+	
+	.music-name{
+		font-family: monospace;
+		font-weight: bold;
+		font-size: 20px;
+		color: #12365c;
+	}
+	.artist-name{
+		font-weight: bold;
+		color: gray;
+	}
+	.text-new{
+		color:orange;
+		font-weight: bold;
+	}
+	.text-down{
+		color: red;
+		font-weight: bold;
+	}
+	.text-up{
+		color: green;
+		font-weight: bold;
+	}
+	.text-red{
+		color: red;
+	}
+	.text-yellow{
+		color: yellow;
+	}
+	.text-cyan{
+		color: cyan;
+	}
+	.text-green{
+		color: green;
+	}
